@@ -1,10 +1,12 @@
 import React from 'react';
 import {Button} from './components';
+import {GlobalStyle} from './GlobalStyle';
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Styled-component sandbox</h1>
+			<GlobalStyle />
+			<p>Hello styled component</p>
 			<Button>Secondary</Button>
 			<Button primary>Primary</Button>
 		</div>
