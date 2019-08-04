@@ -27,12 +27,3 @@ export const above = Object.keys(breakpoint).reduce((acc, label) => {
 
 	return acc;
 }, {});
-
-export const buttonCommon = css`
-	cursor: pointer;
-	font-size: 16px;
-	border-radius: 3px;
-	margin: 0 1em;
-	padding: 0.25em 1em;
-	transition: 0.5s all ease-out;
-`;

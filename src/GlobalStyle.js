@@ -7,13 +7,9 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
   }
 
-  p {
-    color: red;
-  }
-
   a {
-      text-decoration: none;
-      color: inherit;
+    text-decoration: none;
+    color: inherit;
   }
 
 `;

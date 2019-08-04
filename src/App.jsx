@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from './components';
+import {Button} from './elements';
 import {GlobalStyle} from './GlobalStyle';
 
 function App() {
