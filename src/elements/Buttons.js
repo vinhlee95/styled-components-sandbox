@@ -1,5 +1,6 @@
 import styled, {css} from 'styled-components';
 import * as mixins from '../utils';
+import {white, red} from '../utils';
 
 const buttonCommon = css`
 	cursor: pointer;
@@ -11,8 +12,8 @@ const buttonCommon = css`
 `;
 
 const Button = styled.button`
-	background: ${props => (props.primary ? 'red' : 'white')};
-	color: ${props => (props.primary ? 'white' : 'red')};
+	background: ${props => (props.primary ? red : white)};
+	color: ${props => (props.primary ? white : red)};
 	${buttonCommon};
 
 	&:hover {

@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Menlo, sans-serif;
     font-size: 16px;
     margin: 0;
+    background: ${({theme}) => theme.background};
+    color: ${({theme}) => theme.color};
   }
 
   a {
